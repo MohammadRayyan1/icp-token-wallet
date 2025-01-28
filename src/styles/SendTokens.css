@@ -1,0 +1,55 @@
+.send-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .send-container h3 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  .status {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #d9534f;
+  }
+  
